@@ -16,3 +16,5 @@ Example usage:
     $ heroku config:add AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>
 
     $ heroku config:add AWS_DEFAULT_REGION=<default-aws-region>
+    
+    $ git push heroku master
