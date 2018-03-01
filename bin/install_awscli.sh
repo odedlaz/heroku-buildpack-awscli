@@ -6,7 +6,7 @@ chmod u+x $INSTALL_DIR/bin/aws
 
 export PATH=~/vendor/awscli/bin:$PATH
 
-mkdir ~/.aws
+mkdir -p ~/.aws
 
 cat >> ~/.aws/credentials << EOF
 [default]
