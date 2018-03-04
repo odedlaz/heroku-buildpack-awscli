@@ -9,10 +9,12 @@ Usage
 
 Example usage:
 
-    $ heroku config:add BUILDPACK_URL=https://github.com/odedlaz/heroku-buildpack-awscli.git
+    $ heroku buildpacks:add https://github.com/odedlaz/heroku-buildpack-awscli.git
 
     $ heroku config:add AWS_ACCESS_KEY_ID=<aws-access-key>
 
     $ heroku config:add AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>
 
     $ heroku config:add AWS_DEFAULT_REGION=<default-aws-region>
+    
+    $ git push heroku master
